@@ -1,10 +1,10 @@
 /* coded by ibnu syawal */
 /* valid email yaho cek */
 
-var requ = require('request')
-var colo = require('colors')
-var shel = require('shelljs')
-var read = require('readline')
+var requ = require('request') ;  // npm install --save request
+var colo = require('colors')  ;  // npm install --save colors
+var shel = require('shelljs') ;  // npm install --save readline
+var read = require('readline');
 var baca = require('fs');
 
 tampilkan = shel.echo; jalankan = shel.exec;
